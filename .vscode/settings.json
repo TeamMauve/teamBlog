@@ -1,0 +1,28 @@
+{
+  "editor.fontSize": 16,
+  "editor.fontFamily": "Hack, Menlo, Monaco, 'Courier New', monospace",
+  "terminal.integrated.fontFamily": "MesloLGS NF",
+  "outline.problems.colors": true,
+  "outline.icons": true,
+  "jshint.options": {
+    "esversion": 9,
+    "node": true
+  },
+  "html.autoClosingTags": true,
+  "html.suggest.html5": true,
+  "terminal.integrated.fontSize": 15,
+  "eslint.alwaysShowStatus": true,
+  // save시 eslint를 사용해 autofix 실행 (ex. let => const)
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "javascript.format.enable": false,
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  // Prettier 기본 설정. 프로젝트 루트의 .prettierrc 파일의 설정이 우선한다.
+  "prettier.arrowParens": "avoid",
+  "prettier.singleQuote": true,
+  "prettier.jsxSingleQuote": true,
+  "prettier.printWidth": 300,
+  "prettier.useTabs": false
+}
